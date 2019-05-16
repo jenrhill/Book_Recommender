@@ -37,7 +37,7 @@ Two engines were created based on book data. One was a collaborator engine based
 
 I do see great potential in these engines. Had I more time, the next steps I would have taken and recommend considering are the following:
 
-1. Collect a larger master data set to test the models on. Data can be collected via web scraping or an API that includes product descriptions and user review.
+1. Collect a larger master data set to test the models on. The bookstore's data would be ideal here. Or, data can be collected via web scraping or an API that includes product descriptions and user review.
 
 2. Something I ran out of time to do was to look into importing foreign language packages. How foreign titles get addressed in the data will need to be something considered for next steps. Either import a package that can handle them, or remove them from the data set. 
 
