@@ -16,17 +16,6 @@ Here is the workflow order to follow when running through the notebooks, which c
 - [2-Collaborator-Based-Preprocessing-and-Engine.ipynb](./2-Collaborator-Based-Preprocessing-and-Engine.ipynb)
 - [3-Content-Based-Data-Cleaning-and-EDA.ipynb](./3-Content-Based-Data-Cleaning-and-EDA.ipynb)
 - [4-Content-Based-Preprocessing-and-Engine.ipynb](./4-Content-Based-Preprocessing-and-Engine.ipynb)
-
-The data can be found in the [datasets folder](./datasets):
-
-- [Book Crossing Data (Collaborator Recommender)](./datasets/book_crossing)
-  * [users.csv](./datasets/book_crossing/users.csv)
-  * [ratings.csv](./datasets/book_crossing/ratings.csv)
-  * [explicit_ratings.csv](./datasets/book_crossing/explicit_ratings.csv)
-  * [books.csv](./datasets/book_crossing/books.csv)
-- [Goodreads Data (Content Recommender)](./datasets/goodreads)
-  * [goodreads.csv](./datasets/goodreads/goodreads.csv)
-  * [goodreads_sample.csv](./datasets/goodreads/goodreads_sample.csv)
   
 ---
 
