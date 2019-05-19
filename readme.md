@@ -10,13 +10,24 @@ An independent bookstore is considering having a recommender engine added to the
 
 ### Project Files
 
-Here is the workflow order to follow when running through the notebooks:
+Here is the workflow order to follow when running through the notebooks, which can be found in the [code folder](./code):
 
 - [1-Collaborator-Based-Data-Cleaning-and-EDA.ipynb](./1-Collaborator-Based-Data-Cleaning-and-EDA.ipynb)
 - [2-Collaborator-Based-Preprocessing-and-Engine.ipynb](./2-Collaborator-Based-Preprocessing-and-Engine.ipynb)
 - [3-Content-Based-Data-Cleaning-and-EDA.ipynb](./3-Content-Based-Data-Cleaning-and-EDA.ipynb)
 - [4-Content-Based-Preprocessing-and-Engine.ipynb](./4-Content-Based-Preprocessing-and-Engine.ipynb)
 
+The data can be found in the [datasets folder](./datasets):
+
+- [Book Crossing Data (Collaborator Recommender)](./datasets/book_crossing)
+  * [users.csv](./datasets/book_crossing/users.csv)
+  * [ratings.csv](./datasets/book_crossing/ratings.csv)
+  * [explicit_ratings.csv](./datasets/book_crossing/explicit_ratings.csv)
+  * [books.csv](./datasets/book_crossing/books.csv)
+- [Goodreads Data (Content Recommender)](./datasets/goodreads)
+  * [goodreads.csv](./datasets/goodreads/goodreads.csv)
+  * [goodreads_sample.csv](./datasets/goodreads/goodreads_sample.csv)
+  
 ---
 
 ### Executive Summary
@@ -33,7 +44,7 @@ I tested a variety of features from the data, and found what performed best was 
 
 ### Conclusion and Next Steps
 
-Two engines were created based on book data. One was a collaborator engine based on user ratings and the other was a content engine based on product features. Of the two engines, the collaborator engine gave me slightly better recommendations based on book subject matter than the content engine did. The latter gave better scores, but looking closer I can see the subject matter doesn't match up as well. With that in mind, I would recommend a collaborator-based engine, unless you don't have the option to collect a growing list of user ratings. Then I would suggest a content-based, only I would recommend pulling in more descriptive content and using Natural Language Processing and Word2Vec to assess the relationship between the words and make recommendations based on that.
+Two engines were created based on book data. One was a collaborator engine based on user ratings and the other was a content engine based on product features. Of the two engines, the collaborator engine gave me slightly better recommendations based on book subject matter than the content engine did. The latter gave better scores, but looking closer I can see the subject matter doesn't match up as well. With that in mind, I would recommend a collaborator-based engine, unless you don't have the option to collect a growing list of user ratings. Then I would suggest a content-based, only I would recommend pulling in more descriptive content and using Natural Language Processing to assess the relationship between the words and make recommendations based on that.
 
 I do see great potential in these engines. Had I more time, the next steps I would have taken and recommend considering are the following:
 
@@ -41,9 +52,9 @@ I do see great potential in these engines. Had I more time, the next steps I wou
 
 2. Something I ran out of time to do was to look into importing foreign language packages. How foreign titles get addressed in the data will need to be something considered for next steps. Either import a package that can handle them, or remove them from the data set. 
 
-3. There was some author related data in the Goodreads set that I didn't get a chance to test. I would like to see if that would help with getting getting better recommendations or not.
+3. There was some author related data in the Goodreads set that I didn't get a chance to test, such as author genre and average rating. I would like to see if that would help with getting getting better recommendations or not.
 
-4. Explore options to incorporate consumer usability for the engine by adding a web-based front-end.
+4. Explore options to add on a web-based front-end to the engine with a consumer-friendly interface.
 
 ---
 
