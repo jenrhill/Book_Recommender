@@ -12,10 +12,10 @@ An independent bookstore is considering having a recommender engine added to the
 
 Here is the workflow order to follow when running through the notebooks, which can be found in the [code folder](./code):
 
-- [1-Collaborator-Based-Data-Cleaning-and-EDA.ipynb](./1-Collaborator-Based-Data-Cleaning-and-EDA.ipynb)
-- [2-Collaborator-Based-Preprocessing-and-Engine.ipynb](./2-Collaborator-Based-Preprocessing-and-Engine.ipynb)
-- [3-Content-Based-Data-Cleaning-and-EDA.ipynb](./3-Content-Based-Data-Cleaning-and-EDA.ipynb)
-- [4-Content-Based-Preprocessing-and-Engine.ipynb](./4-Content-Based-Preprocessing-and-Engine.ipynb)
+- [1-Collaborator-Based-Data-Cleaning-and-EDA.ipynb](./code/1-Collaborator-Based-Data-Cleaning-and-EDA.ipynb)
+- [2-Collaborator-Based-Preprocessing-and-Engine.ipynb](./code/2-Collaborator-Based-Preprocessing-and-Engine.ipynb)
+- [3-Content-Based-Data-Cleaning-and-EDA.ipynb](./code/3-Content-Based-Data-Cleaning-and-EDA.ipynb)
+- [4-Content-Based-Preprocessing-and-Engine.ipynb](./code/4-Content-Based-Preprocessing-and-Engine.ipynb)
   
 ---
 
